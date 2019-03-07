@@ -1,0 +1,9 @@
+<ng-container *ngIf="stepIndex == selectedIndex">
+  <p>
+    I am step {{ stepIndex }}
+    ngx-walkthrough-step works!
+  </p>
+  <ngx-walkthrough-arrow *ngIf="contentTarget && targetComp" [beforeElement]="contentTarget" [afterElement]="targetComp" [contentPadding]="20" ></ngx-walkthrough-arrow>
+  <button (click)="nextStep()">Next</button>
+  <ng-content></ng-content> 
+</ng-container>

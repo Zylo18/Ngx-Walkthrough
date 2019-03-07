@@ -1,0 +1,16 @@
+<svg class="walkthroughArrowWrapper">
+  <path class="walkthroughArrow" [attr.d]="arrowPosition" marker-end="url(#arrow)"></path>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+</svg>
+
+<!-- <button (click)="arrowPositionChange()" style="position: relative; z-index: 25">change arrow pos</button> -->
+<!-- <label for="customRange1">End X Pos</label>
+<input type="range" class="custom-range" id="customRange1" [min]="0" [max]="screenWidth" (change)="eXChange($event)">
+<label for="customRange1">End Y Pos</label>
+<input type="range" class="custom-range" id="customRange1" [min]="0" [max]="screenHeight" (change)="eYChange($event)">
+<label for="customRange1">End X Pos</label>
+<input type="range" class="custom-range" id="customRange1" [min]="0" [max]="screenWidth" (change)="sXChange($event)">
+<label for="customRange1">End Y Pos</label>
+<input type="range" class="custom-range" id="customRange1" [min]="0" [max]="screenHeight" (change)="sYChange($event)"> -->

@@ -1,0 +1,12 @@
+.ngx-walkthrough-container {
+    background: rgba(0, 0, 0, 0.301);
+}
+
+.ngx-walkthrough-container, .walkthroughArrowWrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; 
+}

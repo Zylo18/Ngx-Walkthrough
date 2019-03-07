@@ -1,0 +1,9 @@
+
+.walkthroughArrow {
+    stroke: black;
+    fill: none;
+    stroke-width: 3
+}
+svg {
+    overflow: visible;
+}
